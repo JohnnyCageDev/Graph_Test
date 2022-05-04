@@ -2,5 +2,5 @@ type ExampleEntity @entity {
   id: ID!
   count: BigInt!
   owner: Bytes! # address
-  approved: Bytes! # address
+  approved: Bytes! # approved
 }
